@@ -127,3 +127,32 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+ /* regole media tablet */
+
+ @media screen and (max-width:768px) {
+
+    .container{
+        width: 100%;
+    }
+ }
+
+ /* regole media mobile */
+
+ @media screen and (max-width:480px) {
+
+    .row{
+        display: block;
+    }
+
+    .lessons .col,
+
+    .steps .col,
+
+    .why-us .col-left,
+
+    .why-us .col-right{
+        width: 90%;
+        margin: 50px auto;
+    }
+ }
